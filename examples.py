@@ -9,6 +9,9 @@
 
 # There are longer notes on re-raising, stack traces and tracebacks here:
 # http://www.doughellmann.com/articles/how-tos/python-exception-handling/index.html
+# http://blog.ianbicking.org/2007/09/12/re-raising-exceptions/
+# and a more basic intro to exceptions here:
+# http://eli.thegreenplace.net/2008/08/21/robust-exception-handling/
 
 # Works in both Python 2.7 and 3.2
 # Considered bad form - all exceptions are silently swallowed
