@@ -7,6 +7,9 @@
 # Note that 'as' and ',' are both accepted in Python 2.x but only 'as' in Python 3.x:
 # http://docs.python.org/reference/compound_stmts.html#try
 
+# There are longer notes on re-raising, stack traces and tracebacks here:
+# http://www.doughellmann.com/articles/how-tos/python-exception-handling/index.html
+
 # Works in both Python 2.7 and 3.2
 # Considered bad form - all exceptions are silently swallowed
 # This can be useful in an outer loop if you log the exception
